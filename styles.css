@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    font-family: 'Roboto', serif;
+}
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px;
+    padding-left: 160px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    padding-right: 160px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.Hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 160px;
+    gap: 40px;
+}
+
+.HeroMain {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.HeroText {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 0 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 18px;
+}
+
+.Information {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding-bottom: 30px;
+}
+
+.information-content {
+    display: flex;
+    padding: 20px 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-item {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.info-item img {
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+
+.Quote {
+    background-color: #E5E7EB;
+    padding: 100px 160px;
+}
+
+.QuoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.QuotedPerson {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 80px;
+    font-weight: 500;
+}
+
+.CallToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.CTAbox {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 30px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+}
+
+.CTAtitle {
+    font-size: 16px;
+    font-weight: 800;
+    color:#E5E7EB;
+}
+
+.CTAtext {
+    font-size: 12px;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.CallToAction button {
+    border-radius: 5px;
+    border: 1px solid #F9FAF8;
+}
